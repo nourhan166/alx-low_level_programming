@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
  * Description: print the value of n status:
  * greater than, is zero and is not less than 6.
@@ -24,6 +24,6 @@ if (digit > 5)
 else if (digit == 0)
 	printf("last digit of %i is %i and is 0\n", n, digit);
 else if (digit < 6 && digit != 0)
-printf("last digit of % i is % i and is less than 6 and not 0\n", n, digit);
+printf("last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 return (0);
 }
