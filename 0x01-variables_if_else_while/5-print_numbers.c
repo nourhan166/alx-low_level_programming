@@ -3,7 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: Always 0 (success)
+ * Description: print all single digit numbers
+ *
+ * Return: Always 0 (success)
 */
 
 int main(void)
