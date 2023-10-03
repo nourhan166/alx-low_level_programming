@@ -6,7 +6,7 @@
  * @c: char to initialize
  * Return: pointer to array initialized or NULL
  */
-char *create_arrray(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 char *n = malloc(size);
 if (size == 0 || n == 0)
