@@ -57,8 +57,8 @@ free(w);
 return (NULL);
 }
 for (l = 0; l < j; l++)
-w[wc][l] = str[i + l];
-w[wc][l] = '\0';
+w[wc][1] = str[i + 1];
+w[wc][1] = '\0';
 wc++;
 i += j;
 }
