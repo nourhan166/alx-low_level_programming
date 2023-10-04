@@ -21,11 +21,11 @@ n++;
 return (n);
 }
 /**
- * strow - splits a string into words
+ * strtow - splits a string into words
  * @str: string to split
  * Return: pointer to an array of strings
  */
-char **strow(char *str)
+char **strtow(char *str)
 {
 int i, j, k, l, n = 0, wc = 0;
 char **w;
