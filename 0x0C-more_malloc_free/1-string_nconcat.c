@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlio.h>
 /**
  * string_nconcat - concatenates two strings
  * @s1: pointer to frist string.
