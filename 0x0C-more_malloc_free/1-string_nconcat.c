@@ -1,5 +1,5 @@
-#include "main.h"
-#include <stdlio.h>
+#include"main.h"
+#include<stdio.h>
 /**
  * string_nconcat - concatenates two strings
  * @s1: pointer to frist string.
@@ -17,12 +17,12 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 /*compute the length of strings*/
-for (s1_length = 0; s1[s1_length] != '\0'; s1_length++)
+for (s1_lenght = 0; s1[s1_lenght] != '\0'; s1_lenght++)
 ;
-for (s2_length = 0; s2[s2_length] != '\0'; s2_length++)
+for (s2_lenght = 0; s2[s2_lenght] != '\0'; s2_lenght++)
 ;
 /*memory reservation-for case 1 & 2.*/
-str = malloc(s1_length + n + 1);
+str = malloc(s1_lenght + n + 1);
 if (str == NULL)
 {
 return (NULL);
