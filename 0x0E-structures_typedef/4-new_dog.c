@@ -1,4 +1,4 @@
-#include <stdlio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * _strlen - a function that gets a length of string
@@ -27,11 +27,11 @@ dest[i] = '\0';
 return (dest);
 }
 /**
- * new_dog - a function creates a new dog
+ * new_dog - a function that creates a new dog
  * @name: name of dog
  * @age: age of the dog
  * @owner: dog owner
- * Return: struct pointer dog Null if function fails
+ * Return: struct pointer dog NULLif function fails
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
