@@ -8,5 +8,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-printf("print_name");
+if (name && f)
+f(name);
 }
