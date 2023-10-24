@@ -21,7 +21,7 @@ if (newlist == NULL)
 free(list);
 exit(98);
 }
-for (i = 0; i < size -1; i++)
+for (i = 0; i < size - 1; i++)
 newlist[i] = list[i];
 newlist[i] = new;
 free(list);
@@ -37,6 +37,7 @@ size_t print_listint_safe(const listint_t *head)
 {
 size_t i, num = 0;
 const listint_t **list = NULL;
+
 while (head != NULL)
 {
 for (i = 0; i < num; i++)
