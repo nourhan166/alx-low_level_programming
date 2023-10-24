@@ -1,13 +1,13 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * find_listint_loop_f1 - finds a loop in a linked list
+ * find_listint_loop_fl - finds a loop in a linked list
  *
  * @head: linked list to search
  *
  * Return: address of node where loop starts/returns, NULL if no loop
  */
-listint_t *find_listint_loop_f1(listint_t *head)
+listint_t *find_listint_loop_fl(listint_t *head)
 {
 listint_t *ptr, *end;
 if (head == NULL)
@@ -18,6 +18,7 @@ if (end == end->next)
 return (end);
 for (ptr = head; ptr != end; ptr = ptr->next)
 if (ptr == end->next)
+return (end->next);
 }
 return (NULL);
 }
@@ -34,7 +35,7 @@ size_t len;
 int loop = 1;
 if (h == NULL || *h == NULL)
 return (0);
-loopnode = find_listint_loop_f1(*h);
+loopnode = find_listint_loop_fl(*h);
 for (len = 0; (*h != loopnode || loop) && *h != NULL; *h = next)
 {
 len++;
