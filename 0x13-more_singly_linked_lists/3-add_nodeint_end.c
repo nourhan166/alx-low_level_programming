@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_nodeint - adds a node to the bottom
+ * add_nodeint_end - adds a node to the bottom
  * @head: pointer to the first node
  * @n: value for new node
  * Return: pointer to new node
