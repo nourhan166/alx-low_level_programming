@@ -13,10 +13,10 @@ char buf[READ_BUF_SIZE * 8];
 if (!filename || !letters)
 return (0);
 fd = open(filename, o_RDONL Y);
- if (fd == -1)
+if (fd == -1)
 return (0);
- bytes = read(fd, &buf[0], letters);
- bytes = write(STDOUT_FILENO, &buf[0];
+bytes = read(fd, &buf[0], letters);
+bytes = write(STDOUT_FILENO, &buf[0], bytes);
 close(fd);
 return (bytes);
 }
